@@ -32,7 +32,7 @@
 		</div>
 		<br>
 		<div class="row">
-			<div class="small-12 large-7 columns">
+			<div class="small-12 large-8 columns">
 				<h4>Я інспектор.</h4>
 				<p>
 					Згідно частини 1 статті 16 Закону України «Про рекламу» розміщення зовнішньої реклами 
@@ -70,8 +70,8 @@
 					встановленому Законом України «Про звернення громадян».
 				</p>
 			</div>
-			<div class="large-5 columns">
-				<form:form modelAttribute="newUser">
+			<div class="small-12 large-4 columns">
+				<form:form action="registration/save" modelAttribute="newUser">
 					<%@include file="../import/registration-form.jsp" %>
 					<div class="button-group float-right">
 						<button type="submit" class="button">

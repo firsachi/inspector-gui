@@ -13,10 +13,10 @@
 		</style>
 	</head>
 	<body>
-		<form class="callout large-6 columns row float-center" action="">
-			
+		<form class="smail-12 lage-6 columns row float-center" action="">
+			<div class="callout">
 			<div class="column row">
-				<h4 class="float-center">Login</h4>
+				<h4 class="column">Login</h4>
 			</div>
 			
 			<hr>
@@ -36,6 +36,8 @@
 					<button class="button expanded">submit</button>
 				</div>
 			</div>
+			</div>
+			
 			
 		</form>
 		<%@include file="../import/script-main-js.jsp" %>

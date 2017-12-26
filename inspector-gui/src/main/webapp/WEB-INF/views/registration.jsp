@@ -11,17 +11,19 @@
 		<%@include file="../import/link-main-css.jsp" %>
 	</head>
 	<body>
-		<form:form modelAttribute="newUser" cssClass="large-6 columns row float-center">
+		<form:form action="registration/save" modelAttribute="newUser" cssClass="smail-12 medium-12 large-6 columns row float-center">
 			<%@include file="../import/registration-form.jsp" %>
-		</form:form>
-		
-		<form class=" large-6 columns row float-center" action="">
-			
-			<div class="button-group float-right">
-  				<button class="button">Back</button>
-				<button type="reset" class="button">Reset</button>
-				<button type="submit" class="button">Submit</button>
+			<div class="medium column">
+				<div class="button-group expanded float-right">
+  					<button class="button large smail">Back</button>
+					<button type="reset" class="button">Reset</button>
+					<button type="submit" class="button">Submit</button>
+				</div>
 			</div>
-		</form>
+		</form:form>
+		<%@include file="../import/script-main-js.jsp" %>
+		<script type="text/javascript">
+			$(document).foundation();
+		</script>
 	</body>
 </html>

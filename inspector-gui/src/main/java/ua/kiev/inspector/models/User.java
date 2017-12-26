@@ -2,6 +2,8 @@ package ua.kiev.inspector.models;
 
 import java.util.Collection;
 
+import javax.validation.constraints.NotEmpty;
+
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
@@ -14,6 +16,7 @@ public class User implements UserDetails{
 
 	private String username;
 	
+	@NotEmpty(message = "{errors.null}")
 	private String password;
 	
 	private String firstname;
