@@ -14,7 +14,15 @@
 				<div class="smail-12 mediun-12 large-12 column">
 					<form:label path="username">
 						<spring:message code="form.email"/>
-						<form:errors class="column label alert" path="username"/>
+							<form:errors class="alert callout" path="username" element="div"/>
+							<!--  
+							<div class="" data-closable>
+								${123}
+								<button class="close-button" aria-label="Dismiss alert" type="button" data-close>
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							-->
 						<spring:message code="form.registration.imputEmail" var="imputEmail"/>
 						<form:input path="username" placeholder="${imputEmail}"/>
 					</form:label>

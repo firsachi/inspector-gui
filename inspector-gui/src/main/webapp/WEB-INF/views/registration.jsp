@@ -15,9 +15,15 @@
 			<%@include file="../import/registration-form.jsp" %>
 			<div class="medium column">
 				<div class="button-group expanded float-right">
-  					<button class="button large smail">Back</button>
-					<button type="reset" class="button">Reset</button>
-					<button type="submit" class="button">Submit</button>
+  					<button class="hollow button large smail">
+  						<spring:message code="buttons.back"/>
+  					</button>
+					<button type="reset" class="hollow button">
+						<spring:message code="buttons.reset"/>
+					</button>
+					<button type="submit" class="hollow button">
+						<spring:message code="buttons.submit"/>
+					</button>
 				</div>
 			</div>
 		</form:form>

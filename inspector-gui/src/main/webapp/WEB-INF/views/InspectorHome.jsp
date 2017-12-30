@@ -43,7 +43,7 @@
 						
 					</div>
 					<hr>
-					<div class="row">
+					<div class="column row expanded">
 						<table>
 							<tr>
 								<th>№ заяви</th>
@@ -68,6 +68,30 @@
 								<td></td>	
 							</tr>
 						</table>
+					</div>
+					<div class="column row expanded">
+						<div class="callout">
+							<div class="column row expanded">
+								<div class="small-10 large-10 columns">№ 905</div>
+								<div class="small-2 large-2 columns label">Перевірено</div>
+							</div>
+							<div class="column row expanded">
+								<div class="small-2 large-2 columns">
+									<img class="thumbnail" src="https://placehold.it/550x350">
+								</div>
+								<div class="small-4 large-4 columns">
+									<div class="">Район</div>
+									<div class="">Вулиця</div>
+									<div class="">Будинок</div>
+									<div class="">Місцезнаходження</div>
+								</div>
+								<div class="small-6 large-6 columns">
+									Опис порушення
+								</div>
+							</div>
+						</div>
+						
+
 					</div>
 				</div>
 			</div>

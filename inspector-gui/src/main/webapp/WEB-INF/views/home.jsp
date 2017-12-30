@@ -24,7 +24,7 @@
   			</div>
   			<div class="top-bar-right">
   				<ul class="menu">
-      				<li><button type="button" class="button">
+      				<li><button type="button" class="hollow button">
       					<spring:message code="buttons.login"/>
       				</button></li>
     			</ul>
@@ -74,7 +74,7 @@
 				<form:form action="registration/save" modelAttribute="newUser">
 					<%@include file="../import/registration-form.jsp" %>
 					<div class="button-group float-right">
-						<button type="submit" class="button">
+						<button type="submit" class="hollow button">
 							<spring:message code="buttons.submit"></spring:message>
 						</button>
 					</div>
