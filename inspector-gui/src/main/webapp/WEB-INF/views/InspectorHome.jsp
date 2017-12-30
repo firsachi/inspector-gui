@@ -17,8 +17,12 @@
 					<div class="row column">
 						<br>
 						<img class="thumbnail" src="https://placehold.it/550x350">
-						<h5>Mike Mikerson</h5>
-						<p>Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie augue sit amet leo.</p>
+						<ul class="vertical menu">
+							<li><a href="#">One</a></li>
+							<li><a href="#">Two</a></li>
+							<li><a href="#">Three</a></li>
+							<li><a href="#">Four</a></li>
+						</ul>	
 					</div>
 				</div>
 				<div class="off-canvas-content" data-off-canvas-content="">
@@ -31,17 +35,39 @@
 					
 					<div class="callout primary">
 						<div class="row column">
-							<h1>Hello! This is the portfolio of a very witty person.</h1>
-							<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla.</p>
+							<h1>Hello! Alexsandr Tymoshenko.</h1>
 						</div>
 					</div>
 					
 					<div class="row small-up-2 medium-up-3 large-up-4">
-
+						
 					</div>
 					<hr>
 					<div class="row">
-						
+						<table>
+							<tr>
+								<th>№ заяви</th>
+								<th>П.І.Б.</th>
+								<th>mail</th>
+								<th>Вулиця</th>
+								<th>Район</th>
+								<th>Опис порушення</th>
+								<th>Дата</th>
+								<th>Статус</th>
+								<th>Результат перевірки</th>
+							<tr>
+							<tr>
+								<td>1128</td>
+								<td>Антон Погребняк</td>
+								<td>a.pogrebnjak@gmail.com</td>
+								<td>Приозерна</td>
+								<td>Оболонський</td>
+								<td>Спотикач (Кафетерій)</td>
+								<td>вчора</td>
+								<td>В роботі</td>
+								<td></td>	
+							</tr>
+						</table>
 					</div>
 				</div>
 			</div>

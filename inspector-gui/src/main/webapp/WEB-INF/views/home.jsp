@@ -19,7 +19,7 @@
   			<div class="top-bar-left">
     			<ul class="dropdown menu" data-dropdown-menu>
     			
-      				<li class="menu-text">КП "Киевреклама"</li>
+      				<li class="menu-text">КП «Київреклама»</li>
     			</ul>
   			</div>
   			<div class="top-bar-right">

@@ -14,13 +14,16 @@ public class User implements UserDetails{
 	 */
 	private static final long serialVersionUID = 1378865926050878433L;
 
+	@NotEmpty(message = "{errors.null}")
 	private String username;
 	
 	@NotEmpty(message = "{errors.null}")
 	private String password;
 	
+	@NotEmpty(message = "{errors.null}")
 	private String firstname;
 	
+	@NotEmpty(message = "{errors.null}")
 	private String lastname;
 	
 	private boolean enabled;

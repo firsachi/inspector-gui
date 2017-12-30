@@ -4,7 +4,9 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 			<br>
 			<div class="column row">
-				<h4 class="column float-center">Registration form</h4>
+				<h4 class="column float-center">
+					<spring:message code="form.registration.title"/>
+				</h4>
 			</div>
 			<hr>
 			
@@ -36,7 +38,7 @@
 						<spring:message code="form.twopassword"/>
 						<form:errors cssClass="column label alert" path="twoPassword"/>
 						<spring:message code="form.registration.inputRepeatPassword" var="repeatPassword" />
-						<form:input path="twoPassword" placeholder="repeatPassword"/>
+						<form:input path="twoPassword" placeholder="${repeatPassword}"/>
 					</form:label>
 				</div>
 			</div>

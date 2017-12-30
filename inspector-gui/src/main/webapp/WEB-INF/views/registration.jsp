@@ -11,7 +11,7 @@
 		<%@include file="../import/link-main-css.jsp" %>
 	</head>
 	<body>
-		<form:form action="registration/save" modelAttribute="newUser" cssClass="smail-12 medium-12 large-6 columns row float-center">
+		<form:form action="save" modelAttribute="newUser" cssClass="smail-12 medium-12 large-6 columns row float-center">
 			<%@include file="../import/registration-form.jsp" %>
 			<div class="medium column">
 				<div class="button-group expanded float-right">
